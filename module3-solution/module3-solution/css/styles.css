@@ -1,0 +1,96 @@
+*
+{
+	margin:0;
+
+
+}
+body 
+{
+	font-size: 16px;
+ 	color: #DFEA31;
+  	background-color: #00139A;
+  	box-sizing: border-box;
+  	font-family: 'KoHo', sans-serif;
+}
+#header-nav
+{
+	background-color:#DFEA31; 
+	border:0;
+	border-radius: 0;
+	margin:0;
+	min-height: 80px;
+}
+#header-nav > div.container
+{
+	margin-left:3%;
+}
+#tittle
+{
+	display: inline-block;
+	color: #00139A;
+	margin:20px 20px;
+	font-size:40px;
+	font-weight: 1000;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #091780;
+
+}
+a:hover, a:active 
+{
+	text-decoration: none;
+}
+#boton
+{
+	border: 2px solid #091780;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+#boton:hover, #boton:active, #boton:focus
+{
+	background-color:#B3BB32;
+}
+
+#collapsable-nav
+{
+	text-align:center;
+	background-color:#F2FF1D;
+	border-color:blue;
+	border-width:2px; 
+	
+}
+#boton .icon-bar{
+	background-color:#091780;
+}
+#list-navbar li
+{
+	font-size: 22px;
+	font-weight: 1000;
+}
+#header-nav > div.container
+{
+	margin-left:0px;
+	padding:0px 0px; 
+}
+.text-center
+{
+	padding: 10px 0px;
+	font-size:50px;
+	margin-bottom: 30px;
+}
+#seccionador section
+{
+	color:#091780;
+	padding:10px 30px;
+	text-align: center;
+	position: relative;
+	font-size: 25px;
+	background-color:#B7BF36; 
+	min-height:1000px;
+	font-weight:600; 
+}
+ #seccionador section h3
+{
+	font-size: 30px;
+	font-weight: 1000;
+
+}
